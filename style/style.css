@@ -64,7 +64,8 @@ nav a {
     transition: color 0.3s ease;
 }
 
-nav a:hover {
+nav a:hover,
+nav a.active {
     color: var(--primary-color);
 }
 
